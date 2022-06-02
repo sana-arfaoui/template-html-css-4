@@ -168,7 +168,7 @@ header nav ul a:hover {
   gap: 20px;
   margin-top: 80px;
 }
-.event .event-content img {
+.event .event-content .event-box img {
   width: 100%;
 }
 .event .event-content .event-box .text {
