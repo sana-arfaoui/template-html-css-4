@@ -163,10 +163,18 @@ header nav ul a:hover {
   margin: 0;
 }
 .event .event-content {
-  display: grid;
+/*   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 20px;
+  gap: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   margin-top: 80px;
+}
+.event .event-content .event-box{
+  flex-basis:44%;
+  margin-left: 50px;
 }
 .event .event-content .event-box img {
   width: 100%;
