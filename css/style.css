@@ -181,20 +181,27 @@ header nav ul a:hover {
     flex-basis: 100%;
     margin: 50px  0;
   }
+  .event h2{
+    font-size:35px ;
+   
+  }
+  .event .event-content{
+    margin-top: 40px;
+  }
 }
-.event .event-content .event-box img {
-  width: 100%;
-}
-.event .event-content .event-box .text {
+
+.event .event-content .event-box  {
   padding: 20px;
 }
-.event .event-content .event-box .text h3 {
-  margin: 0;
+.event .event-content .event-box h3 {
+  text-align: center;
+  margin-top: 20px;
 }
-.event .event-content .event-box .text p {
+.event .event-content .event-box  p {
   color: #777;
   line-height: 1.8;
   margin-bottom: 0;
+  margin-top: 20px;
 }
 
 /* explore */
@@ -304,6 +311,26 @@ header nav ul a:hover {
   margin-top: 10px;
   
 
+
+}
+
+@media(max-width: 768px){
+  .gallery .content-gallery .text-gallery p{
+    font-size: 15px;
+  }
+  .gallery .content-gallery .text-gallery h2{
+    font-size: 24px;
+    color: rgb(105, 35, 170);
+    text-align: center;
+  }
+  .gallery h1{
+    font-size: 30px;
+    margin-bottom: 0;
+
+  }
+  .gallery .text-gallery{
+    margin-top: 0px;
+  }
 
 }
 .gallery h1{
