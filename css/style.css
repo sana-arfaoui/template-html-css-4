@@ -174,7 +174,7 @@ header nav ul a:hover {
 }
 .event .event-content .event-box{
   flex-basis:44%;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 @media(max-width: 768px){
   .event .event-content .event-box{
@@ -195,7 +195,7 @@ header nav ul a:hover {
 }
 .event .event-content .event-box h3 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 20px 0;
 }
 .event .event-content .event-box  p {
   color: #777;
